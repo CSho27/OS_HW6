@@ -14,5 +14,64 @@ HW 6
 		
 2.
 
+	a. Server:
+		chris@chris-VirtualBox:~/Documents/OS/OS_HW6$ ./shared_message_server 
+		Message: I am the original message
+		0. Quit
+		1. Change Message
+		2. Check Message
+		2
+		Message: I am the new message now
+		0. Quit
+		1. Change Message
+		2. Check Message
+		1 
+		Enter new message:
+		I overwrite you new message!
+		Message: I overwrite you new message!
+		0. Quit
+		1. Change Message
+		2. Check Message
+		2
+		Message: I overwrite you new message!
+		0. Quit
+		1. Change Message
+		2. Check Message
+		2
+		Message: client has quit
+		0. Quit
+		1. Change Message
+		2. Check Message
+		0
+		
+	b. Client: 
+		chris@chris-VirtualBox:~/Documents/OS/OS_HW6$ ./shared_message_client 
+		Message: I am the original message
+		0. Quit
+		1. Change Message
+		2. Check Message
+		1  
+		Enter new message:
+		I am the new message now 
+		Message: I am the new message now
+		0. Quit
+		1. Change Message
+		2. Check Message
+		2
+		Message: I am the new message now
+		0. Quit
+		1. Change Message
+		2. Check Message
+		1
+		Enter new message:
+		Fine! I quit!  
+		Message: Fine! I quit!
+		0. Quit
+		1. Change Message
+		2. Check Message
+		0
+		
+3. 
+
 
 		

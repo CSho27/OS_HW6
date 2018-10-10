@@ -86,7 +86,7 @@ int main(){
 			case 0:
 				done = true;
 				sem_wait(sem_ptr);
-				sprintf(content_ptr, "%s", "Server has quit");
+				sprintf(content_ptr, "%s", "Server has quit\n");
 				sem_post(sem_ptr);
 				break;
 			case 1:
